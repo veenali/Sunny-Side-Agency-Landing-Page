@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-image: url(images/desktop/image-gallery-cone.jpg); */
+    box-sizing: border-box;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.doubleUnderlineYellow {
+    padding-bottom: 4px;
+    text-decoration: underline hsl(51, 100%, 49%);
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+}
+
+.doubleUnderlineRed {
+    padding-bottom: 4px;
+    text-decoration: underline hsl(7, 99%, 70%);
+    border-bottom: 3px solid hsl(7, 99%, 70%);
+}
+
+.blackTextColor {
+    color: black;
+}
+
+.fraunces-font-family {
+    font-family: 'Fraunces', serif;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.height-of-sections {
+    height: 50vw;
+}
+
+.padding-class {
+    padding: 0 20% 0 20%;
+}
+
+.icon {
+    display: none;
+}
+
+.responsive-div {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .list .list-items {
+        display: none;
+    }
+    .icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        position: relative;
+    }
+    .list.responsive {
+        position: relative;
+    }
+    .list.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navtp {
+        flex-direction: column;
+    }
+    .list.responsive .list-items {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+
+.center-align-text-horizontally {
+    text-align: center;
+}
+
+.img-header-heading-div {
+    /* display: flex; */
+    align-items: center;
+}
+
+.heading {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+.nav-wrapper {
+    padding: 2% 5% 0 5%;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    /* background-color: rgb(79 177 243); */
+    /* line-height: 50px; */
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.list {
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 30rem; */
+}
+
+.list-items {
+    /* list-style-type: none; */
+    display: inline-block;
+    transition: 0.3s all;
+    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+    /* padding: 1.5em; */
+    padding: 0 2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#contact-div {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    /* vertical-align: middle; */
+    /* margin: 15px; */
+}
+
+.list-items-a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    /* padding: 2em; */
+    font-weight: 600;
+}
+
+#contact {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#contact-div:hover {
+    background-color: rgba(232, 238, 238, 1);
+}
+
+.img-header {
+    background-image: url('images/desktop/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.img-header-text {
+    font-size: 3.3em;
+    letter-spacing: 5px;
+    color: hsl(0, 0%, 100%);
+    /* position: absolute;
+    left: 50%; */
+    text-align: center;
+    padding-top: 5%;
+}
+
+.img-header-arrow {
+    position: absolute;
+    left: 48%;
+    top: 42%;
+}
+
+.egg-section-img {
+    background-image: url('images/desktop/image-transform.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+}
+
+.egg-section-text h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 6%;
+}
+
+.egg-section-text p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 6%;
+}
+
+.learn-more {
+    letter-spacing: 2px;
+}
+
+.glass-section-img {
+    background-image: url('images/desktop/image-stand-out.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+}
+
+.glass-section-text>h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 6%;
+}
+
+.glass-section-text p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 6%;
+}
+
+.cherry-section {
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    position: relative;
+}
+
+.orange-section {
+    background-image: url('images/desktop/image-photography.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    position: relative;
+}
+
+.cherry-section-text {
+    position: absolute;
+    top: 65%;
+    padding: 0 20% 0 20%;
+    color: hsl(167, 39%, 26%);
+}
+
+.orange-section-text {
+    position: absolute;
+    top: 65%;
+    padding: 0 23% 0 23%;
+    color: hsl(198, 62%, 26%);
+}
+
+.cherry-orange-section>section>section>h1 {
+    font-size: 2.85rem;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.cherry-orange-section>section>section>p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+}
+
+.client-testimonials-section {
+    padding-bottom: 5%;
+}
+
+.client-testimonials-header {
+    color: #a0a0a0;
+    font-size: 1.8em;
+    letter-spacing: 5px;
+    margin: 5% 5% 3.5% 5%;
+}
+
+.client {
+    flex: 1;
+}
+
+.client-img {
+    display: block;
+    margin: 10% auto;
+    height: 25%;
+    /* width: 90px; */
+    border-radius: 50%;
+}
+
+.client-desc {
+    line-height: 1.8;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+    margin-bottom: 13%;
+    padding: 0 10%;
+}
+
+.client-name {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1.7%;
+}
+
+.client-designation {
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.milkbottles-section {
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    position: relative;
+    height: 25vw;
+}
+
+.tangerine-section {
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    height: 25vw;
+    position: relative;
+}
+
+.cone-section {
+    background-image: url('images/desktop/image-gallery-cone.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vw;
+    flex: 1;
+    position: relative;
+}
+
+.sugarcubes-section {
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vw;
+    flex: 1;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: hsl(168, 42%, 57%); */
+    background-color: #9ccec4;
+    color: hsl(168, 34%, 41%);
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 10rem;
+    filter: invert(46%) sepia(55%) saturate(317%) hue-rotate(118deg) brightness(55%) contrast(93%);
+}
+
+.footer-know-more {
+    margin: 0 35% 5% 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-know-more>span {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.footer-know-more>span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin: 0 42% 2% 42%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons>svg>path:hover {
+    fill: white;
+    cursor: pointer;
+}
