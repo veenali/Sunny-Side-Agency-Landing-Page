@@ -449,6 +449,9 @@ nav {
     .orange-section {
         height: 40rem;
     }
+    .footer-know-more {
+        margin: 0 20% 8% 20%;
+    }
 }
 
 @media screen and (max-width: 750px) {
