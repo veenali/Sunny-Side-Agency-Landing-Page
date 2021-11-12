@@ -37,9 +37,9 @@ icon.addEventListener('click', () => {
         // mobile_nav.style.display = "block"
         mobile_nav.classList.add('mobile-nav-visibility');
         mobile_nav_wrapper.classList.add('mobile-nav-wrapper-visibility')
+    } else {
+        // mobile_nav.style.display = "none"
+        mobile_nav_wrapper.classList.remove('mobile-nav-wrapper-visibility')
+        mobile_nav.classList.remove('mobile-nav-visibility')
     }
-    // else {
-    //     // mobile_nav.style.display = "none"
-    //     mobile_nav.classList.remove('mobile-nav-visibility')
-    // }
 })
