@@ -29,8 +29,7 @@ Users should be able to:
 ![](./screenshot2.jpg)
 ![](./screenshot3.jpg)
 
-![Mobile View](./mobilescreenshot1.jpg)
-![](./mobilescreenshot2.jpg)
+![Mobile View](./mobilescreenshot2.jpg)
 
 
 ### Links
