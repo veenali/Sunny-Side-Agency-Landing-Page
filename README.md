@@ -10,7 +10,7 @@ This is a solution to the [Sunny Side Agency Landing Page](https://www.frontendm
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Link to the live site URL](#links)
 
 
 ## Overview
