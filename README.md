@@ -28,9 +28,6 @@ Users should be able to:
 ![Desktop View](./screenshot1.jpg)
 ![](./screenshot2.jpg)
 ![](./screenshot3.jpg)
-![](./screenshot4.jpg)
-![](./screenshot5.jpg)
-![](./screenshot6.jpg)
 
 ![Mobile View](./mobilescreenshot1.jpg)
 ![](./mobilescreenshot2.jpg)
