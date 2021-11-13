@@ -1,8 +1,8 @@
-# Time-Tracking-dashboard
+# Sunny side Agency Landing Page
 
 # Frontend Mentor - Sunny side Agency Landing Page
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](remaining). 
+This is a solution to the [Sunny Side Agency Landing Page](https://www.frontendmentor.io/solutions/responsive-page-using-flexbox-and-grid-jl4uRXHW5). 
 
 
 ## Table of contents
